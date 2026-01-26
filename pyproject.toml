@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "python-starter-kit"
+name = "ai-engineering-for-developers"
 version = "0.1.0"
-description = "Minimal Python starter kit (pyenv + venv + pip-tools + ruff + jupyter)"
+description = "Learning repository for the AI Engineering for Developers course by DataCamp. Covers core concepts such as LLMs, embeddings, prompt engineering, vector databases, and applied AI workflows, including code examples, exercises, and notes."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
