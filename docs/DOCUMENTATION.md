@@ -14,19 +14,24 @@
    source ~/.bashrc
    ```
 4. Installing the OpenAI SDK
-   with python: Add module openai to requirements-dev.in
-   requirements-dev.in:
+   with python: Add module openai to requirements-dev.in:
+
    ```
    module a
    module b
    module c
    openai
    ```
+
    Generating requirements-dev.txt and installing dependencies:
+
    ```
+   _bash_
+
    pip-compile requirements-dev.in
    pip install -r requirements-dev.txt
    ```
+
 5. Creating a file test-api-call.py and testing a basic API request
 
    ```
