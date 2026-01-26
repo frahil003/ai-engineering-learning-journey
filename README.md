@@ -1,114 +1,90 @@
-# Python Starter Kit
+# AI Engineering for Developers
 
-Minimaler, sauberer Python-Projekt-Starter für **Studium & Lernen**  
-(geeignet als Template für neue Projekte).
+This repository documents my learning journey through the **DataCamp course _AI Engineering for Developers_**.
 
-**Ziele**
-- reproduzierbares Setup
-- klare Projektstruktur (`src/`-Layout)
-- modernes Tooling ohne Overhead
+It serves as a structured collection of notes, code examples, and hands-on exercises focused on practical AI engineering concepts and modern AI-driven application design.
 
 ---
 
-## Features
+## 📌 Purpose of This Repository
 
-- pyenv für Python-Versionen
-- venv pro Projekt
-- pip-tools für reproduzierbare Dependencies
-- ruff für Linting & Formatting
-- pytest für Tests
-- JupyterLab für Notebooks
+The goal of this repository is to build a solid foundation in **applied AI engineering from a developer’s perspective**.
 
----
-
-## Voraussetzungen
-
-- Ubuntu Linux
-- `pyenv` installiert
-- Python ≥ 3.12
-
-Empfohlen:
-```bash
-pyenv install 3.14.2
-```
+Rather than focusing purely on theory, the emphasis is on:
+- understanding how modern AI systems work,
+- applying AI concepts in real-world scenarios,
+- and integrating AI capabilities into software projects.
 
 ---
 
-## 🚀 Projekt aufsetzen (Quickstart)
-```bash
-git clone https://github.com/<USER>/<PROJECT_NAME>.git
-cd <PROJECT_NAME>
+## 🧠 Topics Covered
 
-pyenv local 3.14.2
+The repository covers (and will continue to expand on) the following topics:
 
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-
-pip install pip-tools
-pip-compile requirements.in
-pip-compile requirements-dev.in
-pip-sync requirements.txt requirements-dev.txt
-
-pip install -e .
-```
+- Large Language Models (LLMs)
+- Embeddings and vector representations
+- Prompt engineering techniques
+- Vector databases and similarity search
+- Retrieval-Augmented Generation (RAG) fundamentals
+- AI pipelines and workflows
+- Best practices for AI-powered applications
 
 ---
 
-## 🧪 Tests & Qualität
+## 📂 Repository Structure
 
-```bash
-ruff format .
-ruff check .
-pytest
-```
-
----
-
-## 📁 Projektstruktur
-
-```bash
+The repository is organized by topic or course chapter.  
+A typical structure looks like this:
 .
-├── src/
-│   └── my_project/
-│       ├── __init__.py
-│       └── greetings.py
-├── tests/
-├── notebooks/
-├── requirements.in
-├── requirements-dev.in
-├── pyproject.toml
+├── notes/ # Concept explanations and summaries
+├── examples/ # Code examples and experiments
+├── exercises/ # Hands-on tasks and solutions
+├── data/ # Sample data (if applicable)
 └── README.md
-```
 
-### Regel
-- produktiver Code → src/
-- Experimente / Lernen → notebooks/
+Each folder may contain additional documentation explaining the context and learning goals of the respective section.
 
 ---
 
-## 🔁 Neues Projekt aus diesem Template starten
+## 🚀 How to Use This Repository
 
-Siehe: [docs/NEW_PROJECT.md](https://github.com/frahil003/python-starter-kit/blob/main/docs/NEW_PROJECT.md)
-
-Kurzfassung:
-
-1. Repo als GitHub Template verwenden
-2. Package unter src/ umbenennen
-3. Imports & Tests anpassen
-4. Commit & loslegen 🚀
+- Browse the **notes** to understand key concepts.
+- Explore the **examples** to see how ideas are implemented in code.
+- Review the **exercises** to follow along with practical tasks from the course.
+- Use this repository as a reference or starting point for your own AI experiments.
 
 ---
 
-## 🧠 Design-Prinzipien
+## 🛠️ Requirements
 
-- Explizit statt magisch
-- Ein Tool pro Aufgabe
-- Lernfreundlich vor clever
-- Produktionsnah, aber entspannt
+The exact requirements may vary per section, but commonly used tools include:
+
+- Python 3.x
+- Jupyter Notebook
+- Popular AI / ML libraries (e.g. OpenAI SDK, NumPy, Pandas, etc.)
+
+Specific dependencies are documented within the respective folders.
 
 ---
 
-## 📜 Lizenz
+## 📈 Status
 
-MIT
+🟡 **Work in Progress**
+
+This repository is actively updated as I progress through the course and deepen my understanding of AI engineering concepts.
+
+---
+
+## 📄 Disclaimer
+
+This repository is intended for **educational purposes only**.  
+Course content is summarized and reimplemented in my own words and code to support personal learning.
+
+---
+
+## 📬 Contact
+
+If you have questions, feedback, or suggestions, feel free to open an issue or reach out.
+
+Happy learning! 🚀
+
