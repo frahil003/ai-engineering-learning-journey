@@ -23,10 +23,10 @@
    openai
    ```
 
-   Generating requirements-dev.txt and installing dependencies:
+   Generating <u>requirements-dev.txt</u> and installing dependencies:
 
    ```
-   _bash_
+   *bash*
 
    pip-compile requirements-dev.in
    pip install -r requirements-dev.txt
