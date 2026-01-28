@@ -1,6 +1,6 @@
 # AI Engineering for Developers
 
-This repository documents my learning journey through the **DataCamp course _AI Engineering for Developers_**.
+This repository documents my learning journey **AI Engineering**.
 
 It serves as a structured collection of notes, code examples, and hands-on exercises focused on practical AI engineering concepts and modern AI-driven application design.
 
@@ -8,7 +8,7 @@ It serves as a structured collection of notes, code examples, and hands-on exerc
 
 ## 📌 Purpose of This Repository
 
-The goal of this repository is to build a solid foundation in **applied AI engineering from a developer’s perspective**.
+The goal of this repository is to build a solid foundation in **applied AI engineering**.
 
 Rather than focusing purely on theory, the emphasis is on:
 - understanding how modern AI systems work,
@@ -36,10 +36,15 @@ The repository covers (and will continue to expand on) the following topics:
 The repository is organized by topic or course chapter.  
 A typical structure looks like this:
 .
+
 ├── notes/ # Concept explanations and summaries
+
 ├── examples/ # Code examples and experiments
+
 ├── exercises/ # Hands-on tasks and solutions
+
 ├── data/ # Sample data (if applicable)
+
 └── README.md
 
 Each folder may contain additional documentation explaining the context and learning goals of the respective section.
