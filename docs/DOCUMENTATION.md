@@ -1,4 +1,4 @@
-# AI Engineering Learing Journey
+# AI Engineering Learning Journey
 ## Setup and Configuration
 
 ---
