@@ -1,6 +1,6 @@
-# AI Engineering for Developers
+# AI Engineering Learning Journey
 
-This repository documents my learning journey **AI Engineering**.
+This repository documents my learning journey in **AI Engineering**.
 
 It serves as a structured collection of notes, code examples, and hands-on exercises focused on practical AI engineering concepts and modern AI-driven application design.
 
