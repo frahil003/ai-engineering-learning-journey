@@ -1,5 +1,4 @@
-# AI Engineering for Developers 🚀
-
+# AI Engineering Learing Journey
 ## Setup and Configuration
 
 ---
