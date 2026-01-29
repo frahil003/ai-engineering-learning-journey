@@ -24,3 +24,7 @@ dist/
 *.swp
 .vscode/
 .idea/
+
+# personal
+/docs/course-slides
+
