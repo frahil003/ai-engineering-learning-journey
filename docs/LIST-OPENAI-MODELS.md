@@ -1,4 +1,4 @@
-# OpenAI Model List
+# OpenAI Model List (generated 2026-01-30)
 
 Python code:
 
