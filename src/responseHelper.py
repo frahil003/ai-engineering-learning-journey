@@ -10,6 +10,18 @@ def get_response(temperature, prompt):
     temperature = temperature)
   return response.choices[0].message.content
 
+def get_response2(temperature, system_prompt, user_prompt):
+  messages = [
+      {"role": "system", "content": system_prompt},
+      {"role": "user", "content": user_prompt}
+  ]   
+  response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=messages,
+    temperature=temperature,
+  )
+  return response.choices[0].message.content
+
 def print_response(response):
   print("\n" + "#" * 50)
   print("#         Response from the OpenAI API           #")
