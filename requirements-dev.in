@@ -5,4 +5,5 @@ jupyterlab
 ipykernel
 pytest
 openai
+tenacity
 
